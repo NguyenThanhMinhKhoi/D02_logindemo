@@ -1,0 +1,54 @@
+.container{
+    height: 800px;
+    padding-top: 150px;
+    background: #CC33CC;
+}
+.login-form{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    height: 500px;
+    margin: 0 5% 0 5%;
+    background-color: white;
+    
+    
+}
+.avatar{
+    /* background-color: blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+   
+}
+.user-login{
+    display: flex;
+    flex-direction: column;
+   
+    /* background-color: blueviolet; */
+    width: 50%;
+   
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#btn-login{
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    background-color: limegreen;
+    color: white;
+}
